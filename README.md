@@ -1,314 +1,146 @@
-# logic-building-with-python
+# Logic Building with Python 🧠🐍
 
-A hands-on collection of python programs focused on strengthening problem-solving skills, core logic, and programming fundamentals through practice.
+This repository is a **logic-first Python practice roadmap** designed to build strong problem-solving skills before jumping into Data Science, Machine Learning, or interviews.
 
-## ***01 Basics – Variables, Data Types, Input/Output, Loops, Conditionals***
-
----
-
-### **Q1. Swap Two Variables**
-
-```
-Input:  a = 5, b = 10
-Output: a = 10, b = 5
-Reason: Values of a and b are exchanged
-```
+Most beginners fail not because of syntax, but because they cannot break problems into steps. This repo fixes that.
 
 ---
 
-### **Q2. User Input and Output**
+## Why this repository exists
 
-```
-Input:  value = "Hello"
-Output: Hello
-Reason: Input is displayed as output
-```
+I am following a long-term Data Science roadmap.
+Before touching NumPy, Pandas, or ML models, I need **strong Python logic**.
+
+This repository focuses on:
+
+* Thinking before coding
+* Writing clean, readable logic
+* Solving problems without memorizing solutions
+
+No shortcuts. No copy-paste learning.
 
 ---
 
-### **Q3. Check Even or Odd**
+## Repository structure
+
+Each week has its **own Jupyter Notebook**.
 
 ```
-Input:  n = 15
-Output: false
-Reason: 15 % 2 = 1 (odd)
-
-Input:  n = 44
-Output: true
-Reason: 44 % 2 = 0 (even)
+logic-building-with-python/
+│
+├── Week_01_Python_Basics.ipynb
+├── Week_02_Functions_Collections.ipynb
+├── Week_03_File_Error_Modules.ipynb
+├── Week_04_Logic_Strings.ipynb
 ```
 
 ---
 
-### **Q4. Multiplication Table**
+## How each notebook is designed
 
-```
-Input:  n = 5
-Output: 5 10 15 20 25
-Reason: Multiples of 5 printed up to range
-```
+Every problem follows the same strict structure:
 
----
+1. **Problem Statement**
+   What exactly needs to be solved.
 
-### **Q5. Largest of Three Numbers**
+2. **Deep Explanation (No code)**
 
-```
-Input:  a = 10, b = 25, c = 15
-Output: 25
-Reason: 25 is greater than 10 and 15
-```
+   * What the problem is testing
+   * How to think about it logically
+   * Common mistakes to avoid
 
----
+3. **One Empty Code Cell**
 
-### **Q6. Celsius to Fahrenheit**
+   * No solution provided
+   * I write code myself
+   * Forces active thinking
 
-```
-Input:  c = 0
-Output: 32°F
-Reason: (0 × 9/5) + 32 = 32
-```
+This is intentional. Passive learning is useless.
 
 ---
 
-### **Q7. Factorial Using Loop**
+## Weekly focus breakdown
 
-```
-Input:  n = 5
-Output: 120
-Reason: 5 × 4 × 3 × 2 × 1 = 120
-```
+### Week 1: Python Basics
 
----
+* Variables and data types
+* Conditions and loops
+* Number logic (palindrome, prime, factorial)
+* Input and output handling
 
-### **Q8. Count Vowels in a String**
-
-```
-Input:  str = "python"
-Output: 1
-Reason: Only 'o' is a vowel
-```
+Goal: Think in steps, not syntax.
 
 ---
 
-### **Q9. Reverse a String**
+### Week 2: Functions & Collections
 
-```
-Input:  str = "data"
-Output: "atad"
-Reason: Characters are reversed
-```
+* Functions and return values
+* Lists, tuples, dictionaries, sets
+* Frequency counting and transformations
 
----
-
-### **Q10. Palindrome Number**
-
-```
-Input:  n = 121
-Output: true
-Reason: Reverse of 121 is 121
-```
+Goal: Break logic into reusable blocks.
 
 ---
 
-### **Q11. Sum of First N Natural Numbers**
+### Week 3: Files, Errors & Comprehensions
 
-```
-Input:  n = 5
-Output: 15
-Reason: 1 + 2 + 3 + 4 + 5 = 15
-```
+* File handling
+* Exception handling
+* List comprehensions and generators
 
----
-
-### **Q12. Number Guessing Game**
-
-```
-Input:  guess = 7, secret = 7
-Output: Correct Guess
-Reason: User guess matches the secret number
-```
+Goal: Write safer, cleaner Python code.
 
 ---
 
-### **Q13. Prime Numbers Between 1 and 100**
+### Week 4: Logic Building & Strings
 
-```
-Input:  Range = 1 to 10
-Output: 2 3 5 7
-Reason: These numbers have only two factors
-```
+* String manipulation
+* Pattern and text-based logic
+* Edge cases and constraints
 
----
-
-### **Q14. Leap Year Check**
-
-```
-Input:  year = 2024
-Output: true
-Reason: 2024 is divisible by 4
-```
+Goal: Sharpen pure problem-solving ability.
 
 ---
 
-### **Q15. Fibonacci Series**
+## How to use this repo (important)
 
-```
-Input:  n = 5
-Output: 0 1 1 2 3
-Reason: Each number is the sum of previous two
-```
+This repo is **not** meant to be rushed.
 
----
+Recommended workflow:
 
-### **Q16. GCD of Two Numbers**
+1. Read the problem
+2. Read the explanation slowly
+3. Think on paper first
+4. Then write code in the empty cell
+5. Refactor after it works
 
-```
-Input:  a = 20, b = 28
-Output: 4
-Reason: 4 divides both 20 and 28
-```
+If you jump straight to code, you’re cheating yourself.
 
 ---
 
-### **Q17. LCM of Two Numbers**
+## Who this repo is for
 
-```
-Input:  a = 4, b = 6
-Output: 12
-Reason: 12 is the smallest number divisible by both
-```
+* Beginners who want **strong fundamentals**
+* Data Science or ML aspirants
+* Students preparing for coding interviews
+* Anyone tired of tutorial hell
 
----
-
-### **Q18. Vowel or Consonant**
-
-```
-Input:  ch = 'a'
-Output: Vowel
-Reason: 'a' is a vowel
-```
+If you want quick solutions, this repo is not for you.
 
 ---
 
-### **Q19. Sum of Digits**
+## Future plans
 
-```
-Input:  n = 123
-Output: 6
-Reason: 1 + 2 + 3 = 6
-```
-
----
-
-### **Q20. Second Largest Number in a List**
-
-```
-Input:  list = [10, 20, 4, 45, 99]
-Output: 45
-Reason: 99 is the largest, 45 is the second largest
-```
+* Add advanced logic problems
+* Time and space complexity notes
+* Interview-style constraints
+* Transition to NumPy and Pandas logic
 
 ---
 
-### **Q21. Count Digits in a Number**
+## Final note
 
-```
-Input:  n = 12345
-Output: 5
-Reason: The number contains five digits
-```
+Good developers are not fast typists.
+They are **clear thinkers**.
 
----
-
-### **Q22. Armstrong Numbers (1 to 1000)**
-
-```
-Input:  Range = 1 to 500
-Output: 1 153 370 371 407
-Reason: Each number equals the sum of its digits raised to the power of number of digits
-```
-
----
-
-### **Q23. Star Triangle Pattern**
-
-```
-Input:  n = 3
-Output:
-*
-**
-***
-Reason: Stars are printed in increasing order per row
-```
-
----
-
-### **Q24. Calculator Using If-Else**
-
-```
-Input:  a = 10, b = 5, operator = '+'
-Output: 15
-Reason: Addition operation performed
-```
-
----
-
-### **Q25. ASCII Value of a Character**
-
-```
-Input:  ch = 'A'
-Output: 65
-Reason: ASCII value of 'A' is 65
-```
-
----
-
-### **Q26. Decimal to Binary Conversion**
-
-```
-Input:  n = 10
-Output: 1010
-Reason: Binary representation of decimal 10 is 1010
-```
-
----
-
-### **Q27. Square Root of a Number**
-
-```
-Input:  n = 16
-Output: 4
-Reason: 4 × 4 = 16
-```
-
----
-
-### **Q28. Sum of Even Numbers in a List**
-
-```
-Input:  list = [1, 2, 3, 4, 5, 6]
-Output: 12
-Reason: 2 + 4 + 6 = 12
-```
-
----
-
-### **Q29. Prime Number Check**
-
-```
-Input:  n = 13
-Output: true
-Reason: 13 has only two factors (1 and 13)
-```
-
----
-
-### **Q30. Cube of Numbers up to N**
-
-```
-Input:  n = 3
-Output: 1 8 27
-Reason: Cubes of numbers from 1 to 3 are printed
-```
-
----
+This repository is about building that clarity.
